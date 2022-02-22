@@ -20,7 +20,6 @@ namespace MVC_Logger.Controllers
 
         public IActionResult Index()
         {
-            _logger.LogInformation("Mensagem de Log na ação Index()");
             return View();
         }
 
